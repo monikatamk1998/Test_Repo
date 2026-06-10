@@ -2,8 +2,8 @@
     "url" : "https://www.saucedemo.com",
     "username" : "standard_user",
     "password" : "secret_sauce",
-    "firstname" : "john",
-    "lastname" : "smith",
-    "postalcode" : "571421" 
+    "firstName" : "john",
+    "lastName" : "smith",
+    "postalCode" : "456787" 
 
 }

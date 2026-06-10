@@ -1,6 +1,11 @@
 import {test, expect} from "@playwright/test"
 import saucedemo from "../TestData/saucedemo.json"
-import { acceptAlert } from "../utils/utils"
+import { LoginPage } from "../PageObjectmodel/LoginPage"
+import { ProductPage } from "../PageObjectmodel/ProductPage"
+import { CheckoutPage } from "../PageObjectmodel/CheckoutPage"
+import { LogoutPage } from "../PageObjectmodel/LogoutPage"
+
+
 
 test("Login page", async({page})=>{
 

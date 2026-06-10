@@ -1,10 +1,10 @@
 import {expect} from "@playwright/test"
-import { acceptAlert } from "../utils/saucedemoutils"
-import { selectDropdown } from "../utils/saucedemoutils"
+import { acceptAlert } from "../utils/utils"
+import { selectDropdown } from "../utils/utils"
 
 export class ProductPage{
     constructor(page){
-        this.page = page
+    this.page = page
         this.product = page.locator('//span[text()="Products"]')
         this.sort = page.locator('//select[@class="product_sort_container"]')
         this.firstItem = page.locator('//button[@id="add-to-cart-sauce-labs-backpack"]')
