@@ -1,4 +1,4 @@
-import saucedemo from "../testData/saucedemo.json"
+import saucedemo from "../TestData/saucedemo.json"
 export class LoginPage{
     constructor(page){
         this.page = page
