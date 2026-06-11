@@ -1,4 +1,4 @@
-import saucedemo from "../testData/saucedemo.json"
+import saucedemo from "../TestData/saucedemo.json"
 import {expect} from "@playwright/test"
 
 export class CheckoutPage{
